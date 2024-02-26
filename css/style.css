@@ -1,0 +1,169 @@
+*{
+    font-family: 'montserrat';
+    font-weight: 400;
+    color:   rgba(50, 50, 50, 1);
+}
+.box{
+    min-height: 440px;
+    border: 3px solid red;
+}
+/* navbar */
+nav .container{
+  min-height: 45px;  
+  border-bottom: 1px solid rgba(50, 50, 50, 1);
+  margin-bottom: 40px;
+}
+.navbar-heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 23px;
+}
+.navbar-link{
+    font-size: 18px;
+    line-height: 22px;
+}
+/* navbar end  */
+/* header */
+
+.button{
+    max-width: 123px;
+    height: 49px;
+    padding: 11px 39px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(50, 50, 50, 1);
+    color:  rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 16px;
+    left: 22px;
+
+}
+.header-left{
+    padding: 73px 0 47px 0;
+    background: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px   rgba(132, 132, 132, 0.3);
+}
+.header-heading{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.header-bio{
+    font-size: 16px;
+    line-height: 19.5px;
+}
+.header-right{
+    min-height: 30px;
+    background-color: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(132, 132, 132, 0.3);
+    padding: 24.5% 0 24.5% 0;   
+}
+.header-h1{
+    font-size: 22px;
+}
+/* header end */
+/* main */
+.main{
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+.heading-content{
+    min-height: 40px;
+    border-bottom: 1px solid rgba(50, 50, 50, 1);
+    margin-bottom: 40px;
+}
+.heading{
+    font-size: 30px;
+    line-height: 36.5px;
+    letter-spacing: 2.2px;
+}
+.main-card{
+    width: 100%;
+    min-height: 30px;
+    border-radius: 10px;
+    background: rgba(225, 225, 225, 1);
+    padding: 72px 0 39px 0 ;
+    box-shadow: 5px 5px 5px rgba(132, 132, 132, 0.3);
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 19px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    border: none;
+}
+.korzinka{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 90px;
+    right: 19px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+}
+/* main end */
+/* info */
+.button1{
+    max-width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 13px 30px;
+    font-size: 20px;
+    line-height: 24px;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.info-card{
+    padding: 10% 10% 5% 5%;
+    color: rgba(225, 225, 225, 1);
+    border-radius: 10px;
+}
+.info-img{
+    top: 0;
+    left: 0;
+}
+.info-heading{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+.info-p{
+    color: rgba(225, 225, 225, 1);
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.5;
+}
+.info .col-12{
+    margin: 0;
+}
+/* info end */
+/* footer */
+footer{
+    background: rgba(50, 50, 50, 1);
+    padding: 100px;
+    margin-top: 120px;
+}
+.whitehacker{
+    margin: 0;
+    color: rgba(225, 225, 225, 1);
+}
+.footer{
+    background: rgba(50, 50, 50, 1);
+}
+/* footer end */
+/* media  */
+@media (max-width: 567px) {
+    .info-p{
+        font-size: 13px;
+    } 
+}
+/* media end */
